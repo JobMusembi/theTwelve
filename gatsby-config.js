@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `thetwelve`,
+    title: `theTwelve`,
     siteUrl: `https://www.thetwelve.co.ke`,
   },
   plugins: [

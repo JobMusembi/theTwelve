@@ -7,11 +7,11 @@ export default function index() {
       <Seo title="Home" keywords={[`Home Page the Twelve`]} />
     <div className='banner'>
     <div className='container'>
-      <p>the Twelve is a design and technology practice of Job Musembi & Faith Mwikali building contemporary African brands in the digital realm.<br/><br/>
+      <p>🕛 the Twelve is a design and technology practice of Job Musembi & Faith Mwikali building contemporary African brands in the digital realm.<br/><br/>
           We’re a nimble, two-person team, and we like it that way. We’re the  technologists
           that actually do the work, meaning your vision won’t get lost in translation across multiple points of contact.</p>
 
-      <p>Services</p>
+      <p>🌐 Services</p>
       <ul>
         <li>Website Design</li>
         <li>Interaction Design</li>
@@ -21,7 +21,7 @@ export default function index() {
         <li>Experimental Development</li>
       </ul> 
 
-      <p>Capabilities</p>
+      <p>💡 Capabilities</p>
       <ul>
         <li>Marketing Websites</li>
         <li>Editorial Websites</li>
@@ -31,15 +31,23 @@ export default function index() {
         <li>Wordpress</li>
       </ul> 
 
-      <p>Clients</p>
+      <p>🗂️ Clients</p>
       <p>Saba Studios, Greenspoon, Faholo Chemicals, Playsupply, fromnothingnew.</p>
 
-      <p>Ready to work together?</p>
+      <p>📩 Ready to work together?</p>
       <ul>
         <li>+254 111 203 301 / +254 796 472 672</li>
-        <li>hello@thetwelve.co.ke</li><br/>
-        <li>Instagram</li>
-        <li>Twitter</li>
+        <li>thetwlv@gmail.com</li><br/>
+        <li>
+          <a href="https://twitter.com/jointhetwelve" target="_blank" rel="noopener noreferrer">
+          Instagram 
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/jointhetwelve" target="_blank" rel="noopener noreferrer">
+          Twitter 
+          </a>
+        </li>
       </ul> 
 
     </div>
