@@ -94,7 +94,7 @@ ul {
   }
   li {
     list-style: none;
-    font-size: 1.15rem;
+    font-size: 0.875rem;
     color: $secondary;
     margin-bottom: 0.5rem;
     @media (max-width: 680px) {
@@ -115,7 +115,6 @@ p {
          font-size: 1.563em;
       }
 }
-
 
 .container {
   flex-grow: 1;
