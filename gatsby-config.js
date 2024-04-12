@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `thetwelve`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.thetwelve.co.ke`,
   },
   plugins: [
     `gatsby-plugin-sass`,

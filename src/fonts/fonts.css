@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Ortica";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./font/Ortica-Light.woff") format("woff");
+    font-display: swap;
+  }

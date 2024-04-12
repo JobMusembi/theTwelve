@@ -1,11 +1,14 @@
 import React from 'react'
+import Seo from "../components/seo"
 
 export default function index() {
   return (
+    <div>
+      <Seo title="Home" keywords={[`Home Page the Twelve`]} />
     <div className='banner'>
     <div className='container'>
-      <p>the Twelve is a design and technology practice of Job Musembi & Faith Mwikali.<br/><br/>
-          We’re a nimble, two-person team, and we like it that way. We’re the technicians 
+      <p>the Twelve is a design and technology practice of Job Musembi & Faith Mwikali building contemporary African brands in the digital realm.<br/><br/>
+          We’re a nimble, two-person team, and we like it that way. We’re the  technologists
           that actually do the work, meaning your vision won’t get lost in translation across multiple points of contact.</p>
 
       <p>Services</p>
@@ -39,6 +42,7 @@ export default function index() {
         <li>Twitter</li>
       </ul> 
 
+    </div>
     </div>
     </div>
   )

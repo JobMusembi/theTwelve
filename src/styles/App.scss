@@ -1,6 +1,14 @@
 @import "./normalize.scss";
 @import "./variables.scss";
 
+@font-face {
+    font-family: "Ortica";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/font/Ortica-Light.woff") format("woff");
+    font-display: swap;
+}
+
 
 * {
   box-sizing: border-box;
@@ -132,7 +140,7 @@ p {
 .banner {
     position: relative;
     height: 100vh;
-    width: 70%;
+    width: 100%;
     @media (max-width: 992px) {
         width: 100%;
       }
