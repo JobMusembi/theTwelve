@@ -8,7 +8,7 @@ export default function index() {
     <div className='banner'>
     <div className='container'>
       <p>🕛 the Twelve is a design and technology practice of Job Musembi & Faith Mwikali building contemporary African brands in the digital realm.<br/><br/>
-          We’re a nimble, two-person team, and we like it that way. We’re the  technologists
+          We’re a nimble, dynamic duo, embracing our small team size. We’re the  technologists
           that actually do the work, meaning your vision won’t get lost in translation across multiple points of contact.</p>
 
       <p>🌐 Services</p>
@@ -38,11 +38,11 @@ export default function index() {
       <ul>
         <li>+254 111 203 301 / +254 796 472 672</li>
         <li>thetwlv@gmail.com</li><br/>
-        <li>
+        {/* <li>
           <a href="https://twitter.com/jointhetwelve" target="_blank" rel="noopener noreferrer">
           Instagram 
           </a>
-        </li>
+        </li> */}
         <li>
           <a href="https://twitter.com/jointhetwelve" target="_blank" rel="noopener noreferrer">
           Twitter 
