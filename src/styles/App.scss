@@ -22,8 +22,10 @@ body {
 body {
   height: 100%;
   font-family: "Ortica";
+  //font-family: "Suisse BP Int'l";
   font-size: 16px;
   font-weight: 100;
+  //font-weight: 400;
   background-color: $white;
   color: $text;
 }
@@ -110,11 +112,12 @@ ul {
 }
 
 p {
-    font-size: 2.441em;
+    font-size: 4.441em;
     @media (max-width: 992px) {
-         font-size: 1.563em;
+         font-size: 2.563em;
       }
 }
+
 
 .container {
   flex-grow: 1;

@@ -7,11 +7,11 @@ export default function index() {
       <Seo title="Home" keywords={[`Home Page the Twelve`]} />
     <div className='banner'>
     <div className='container'>
-      <p>🕛 the Twelve is a design and technology practice of Job Musembi & Faith Mwikali building contemporary African brands in the digital realm.<br/><br/>
-          We’re a nimble, dynamic duo, embracing our small team size. We’re the  technologists
-          that actually do the work, meaning your vision won’t get lost in translation across multiple points of contact.</p>
+      <p>the Twelve is a design and technology practice building contemporary African brands in the digital realm.
+        
+          </p>
 
-      <p>🌐 Services</p>
+      <h4>🌐 Services</h4>
       <ul>
         <li>Website Design</li>
         <li>Interaction Design</li>
@@ -21,7 +21,7 @@ export default function index() {
         <li>Experimental Development</li>
       </ul> 
 
-      <p>💡 Capabilities</p>
+      <h4>💡 Capabilities</h4>
       <ul>
         <li>Marketing Websites</li>
         <li>Editorial Websites</li>
@@ -31,10 +31,10 @@ export default function index() {
         <li>Wordpress</li>
       </ul> 
 
-      <p>🗂️ Clients</p>
+      <h4>🗂️ Clients</h4>
       <p>Saba Studios, Greenspoon, Faholo Chemicals, Playsupply, fromnothingnew.</p>
 
-      <p>📩 Ready to work together?</p>
+      <h4>📩 Ready to work together?</h4>
       <ul>
         <li>+254 111 203 301 / +254 796 472 672</li>
         <li>thetwlv@gmail.com</li><br/>
