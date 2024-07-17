@@ -7,7 +7,7 @@ export default function index() {
       <Seo title="Home" keywords={[`Home Page the Twelve`]} />
     <div className='banner'>
     <div className='container'>
-      <p>the Twelve is a design and technology practice building contemporary African brands in the digital realm.
+      <p>THE TWELVE is a design and technology practice building contemporary African brands in the digital realm.
         
           </p>
 
@@ -32,11 +32,11 @@ export default function index() {
       </ul> 
 
       <h4>🗂️ Clients</h4>
-      <p>Saba Studios, Greenspoon, Faholo Chemicals, Playsupply, fromnothingnew.</p>
+      <p>Saba Studios, Greenspoon, Playsupply, fromnothingnew.</p>
 
       <h4>📩 Ready to work together?</h4>
       <ul>
-        <li>+254 111 203 301 / +254 796 472 672</li>
+        <li>+254 776 267 001 / +254 796 472 672</li>
         <li>thetwlv@gmail.com</li><br/>
         {/* <li>
           <a href="https://twitter.com/jointhetwelve" target="_blank" rel="noopener noreferrer">
