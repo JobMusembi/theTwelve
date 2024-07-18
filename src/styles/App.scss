@@ -24,7 +24,7 @@ body {
   font-family: "Ortica";
   //font-family: "Suisse BP Int'l";
   font-size: 16px;
-  font-weight: 100;
+  //font-weight: 100;
   //font-weight: 400;
   background-color: $white;
   color: $text;
@@ -67,8 +67,9 @@ small,
 }
 
 a {
-  text-decoration: none;
-  color: $black;
+  // text-decoration: none;
+  // color: $black;
+  color: blue;
   transition: ease-in-out 0.2s;
 }
 
@@ -206,3 +207,19 @@ p {
   margin-right: 5px;
 }
 
+.services {
+  display: flex;
+  justify-content: space-between; /* Distributes space between columns */
+}
+
+.column {
+  flex: 1; /* Makes the columns take equal space */
+  padding: 10px; /* Adds some padding around each column */
+}
+
+.contact {
+  width: 40%;
+  @media (max-width: 680px) {
+    width: 100%;
+  }
+}

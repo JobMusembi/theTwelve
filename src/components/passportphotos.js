@@ -6,15 +6,15 @@ import image2 from '../images/hers.jpg';
 
 const PassportPhotos = () => (
   <div>
-    <h4>You'll be working with :</h4>
+    <h4>Team :</h4>
     <div className="image-container">
     <div className="image-caption">
       <img src={image1} alt="job" />
-      <div className="caption">JOB</div>
+      <div className="caption">Oleg - DESIGNER / DEVELOPER</div>
       </div>
       <div className="image-caption">
         <img src={image2} alt="faith" />
-        <div className="caption">FAITH</div>
+        <div className="caption">Olga - DEVELOPER / UX</div>
       </div>
     </div>
   </div>
