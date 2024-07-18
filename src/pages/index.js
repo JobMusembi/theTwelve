@@ -43,7 +43,7 @@ export default function index() {
       <PassportPhotos />
       <div className='contact'>
       <h4>Let's talk</h4>
-      <span >Want to start a project ? Join the Team ? Apply for an internship ? Drop a quick word ? Email us: <a href="mailto:thetwlv@gmail.com">thetwlv@gmail.com</a></span>
+      <p>Want to start a project ? Join the Team ? Apply for an internship ? Drop a quick word ? Email us: <a href="mailto:thetwlv@gmail.com">thetwlv@gmail.com</a></p>
       </div>
       {/* <ul>
         <li>PHONE :<a href="tel:+254 776 267 001">+254 776 267 001</a>&nbsp;&nbsp;<a href="tel:+254 796 472 672">+254 796 472 672</a></li>
