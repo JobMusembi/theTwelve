@@ -51,7 +51,7 @@ export default function index() {
       </ul>  */}
       <footer className="footer">
       <h4>Social</h4>
-      <a href="https://instagram.com/twelve.co.ke" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://instagram.com/thetwelve.co.ke" target="_blank" rel="noopener noreferrer">Instagram</a>
       <a href="https://twitter.com/jointhetwelve" target="_blank" rel="noopener noreferrer">Twitter</a>
       </footer>
 
