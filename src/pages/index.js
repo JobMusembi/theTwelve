@@ -22,6 +22,9 @@ export default function index() {
             <li>Backend Development</li>
             <li>Ecommerce Development</li>
             <li>Experimental Development</li>
+            <li>Industrial Design</li>
+            <li>PCB Design</li>
+            <li>Circuit Design</li>
           </ul> 
         </div>
       <div className="column">
@@ -33,6 +36,9 @@ export default function index() {
           <li>3rd Party Integrations</li>
           <li>Sanity</li>
           <li>Wordpress</li>
+          <li>Embedded Systems</li>
+          <li>Low - High Fi Prototyping</li>
+          <li>PCB Assembly</li>
         </ul> 
       </div>
       </div>
