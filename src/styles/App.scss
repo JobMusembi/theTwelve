@@ -22,10 +22,7 @@ body {
 body {
   height: 100%;
   font-family: "Ortica";
-  //font-family: "Dot Matrix";
   font-size: 16px;
-  //font-weight: 100;
-  //font-weight: 400;
   background-color: $text;
   color: $white;
 }
@@ -36,13 +33,11 @@ h3,
 h4,
 h5 {
   margin: 2.75rem 0 1.05rem;
-  //font-family: "IBM Plex Sans", sans-serif;
   line-height: 1.15;
 }
 
 h1 {
   margin-top: 0;
-//   font-size: 3.052em;
 }
 
 h2 {
@@ -67,8 +62,6 @@ small,
 }
 
 a {
-  // text-decoration: none;
-  // color: $black;
   color: blue;
   transition: ease-in-out 0.2s;
 }
@@ -79,7 +72,6 @@ ul {
   span {
     text-transform: uppercase;
     font-size: 0.875rem;
-    //font-weight: 400;
     margin-bottom: 1rem;
     display: block;
     letter-spacing: 0.05rem;
@@ -97,7 +89,6 @@ ul {
   }
   li {
     list-style: none;
-    //font-size: 0.875rem;
     color: $secondary;
     margin-bottom: 0.5rem;
     @media (max-width: 680px) {
@@ -113,10 +104,8 @@ ul {
 }
 
 p {
-    font-size: 4.441em;
-    @media (max-width: 992px) {
-         font-size: 2.563em;
-      }
+    font-size: 3.2vw;
+    margin: 0;
 }
 
 
@@ -140,56 +129,30 @@ p {
   overflow-y: hidden;
 }
 
-.banner {
+.landing {
     position: relative;
     height: 100vh;
     width: 100%;
-    @media (max-width: 992px) {
-        width: 100%;
-      }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-
-.image-container {
-  display: flex;
-  // flex-direction: column;
-  // align-items: center;
+.landingText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.image-container img {
-  margin-right: 20px;
-  margin-bottom: 10px;
-  width: 100px; /* Adjust this value according to the actual size of your passport photo */
-  height: 100px; /* Adjust this value according to the actual size of your passport photo */
-}
-
-// .image-container img + .caption {
-//   margin-bottom: 50px;
-// }
-
-.image-container .caption {
-  font-size: 14px;
-  color: $secondary;
-}
-
-.image-caption {
-  margin-right: 30px; /* Space between images */
-}
-
-.image-container .caption:last-of-type {
-  margin-bottom: 0;
-}
 
 .footer {
-  margin-bottom: 20px;
-}
-
-.footer h4 {
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin: 20px 0;
 }
 
 .footer a {
+  font-size: 2.2vw;
   margin-right: 10px;
   color: $secondary;
   text-decoration: none;
@@ -199,28 +162,3 @@ p {
   text-decoration: underline;
 }
 
-.circled {
-  display: inline-block;
-  padding: 0 10px;
-  border: 2px solid #555;
-  border-radius: 50%;
-  margin-right: 5px;
-}
-
-.services {
-  display: flex;
-  justify-content: space-between; /* Distributes space between columns */
-}
-
-.column {
-  flex: 1; /* Makes the columns take equal space */
-  padding: 10px; /* Adds some padding around each column */
-}
-
-.contact {
-  width: 100%;
-  margin-bottom: 100px;
-  @media (max-width: 680px) {
-    width: 100%;
-  }
-}
